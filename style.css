@@ -1,5 +1,5 @@
 .body {
-  background-color: #b3b3b3;
+  background-color: #b3b3b0;
 }
 
 .rounded-img {
@@ -8,4 +8,24 @@
   box-shadow: 0 0 10px rgba(26, 9, 9, 0.5);
   padding: 0.6em;
   margin-bottom: 1em;
+}
+
+.navbar {
+  margin-bottom: 1em;
+}
+
+.card {
+  border-radius: 2em;
+  text-align: center;
+  padding: 1em;
+}
+
+.card:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  border-radius: 50%;
+  width: 90%;
+  margin: auto;
 }
